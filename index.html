@@ -1,44 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Infographic Report: OB's Business Situation in the Japanese Market</title>
+    <title>Báo cáo Tình hình của OB tại Thị trường Nhật Bản</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
-        body {
-            font-family: 'Inter', sans-serif;
-        }
-        .flow-arrow {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transform: rotate(90deg);
-            color: #d45087;
-            font-size: 2rem;
-            margin: -10px 0;
-        }
-         @media (min-width: 768px) {
-            .flow-arrow {
-                transform: rotate(0deg);
-                margin: 0 -15px;
-            }
-        }
-        .hakken-section, .outsource-section {
-            border-radius: 0.5rem;
-            padding: 1.5rem;
-            display: flex;
-            flex-direction: column;
-            gap: 1rem;
-            transition: transform 0.3s ease;
-        }
+        body { font-family: 'Inter', sans-serif; }
         .compass-icon {
             font-size: 6rem;
             color: #4d648d;
             animation: pulse 2s infinite ease-in-out;
         }
-
         @keyframes pulse {
             0% { transform: scale(1); }
             50% { transform: scale(1.1); }
@@ -47,192 +21,192 @@
     </style>
 </head>
 <body class="bg-gray-100 text-gray-800">
-
     <div class="container mx-auto p-4 md:p-8">
-
+        <!-- Header -->
         <header class="text-center mb-12">
-            <h1 class="text-4xl md:text-5xl font-bold text-[#003f5c] mb-2">Report on OB's Situation in the Japanese Market</h1>
-            <p class="text-lg text-gray-600">An analysis of the impact of structural changes and strategic direction</p>
+            <h1 class="text-4xl md:text-5xl font-bold text-[#003f5c] mb-2">Báo cáo Tình hình của OB tại Thị trường Nhật Bản</h1>
+            <p class="text-lg text-gray-600">Phân tích tác động của những thay đổi cơ cấu và định hướng chiến lược</p>
         </header>
 
         <main>
+            <!-- Preface Section -->
             <section id="preface" class="mb-12">
-                <h2 class="text-3xl font-bold text-[#003f5c] text-center mb-8">Premise of Establishment: The Reason for the OB JP Production Unit</h2>
+                <h2 class="text-3xl font-bold text-[#003f5c] text-center mb-8">Tiền đề thành lập: Lý do ra đời Đơn vị Sản xuất OB JP</h2>
                 <div class="bg-white rounded-lg shadow-md p-6">
-                    <p class="text-gray-600">The OB JP production unit was formed based on practical experience and a deep analysis of the Japanese market. This is a strategy to affirm our core capabilities and create a lasting competitive advantage. <a href="#" id="readMoreLink" class="text-blue-500 font-semibold hover:underline">Read more...</a></p>
+                    <p class="text-gray-600">Đơn vị sản xuất OB JP được thành lập để đáp ứng những nhu cầu đặc thù của thị trường Nhật Bản, tập trung vào việc tương tác và tư vấn trực tiếp với khách hàng. 
+                        <a href="#" id="readMoreLink" class="text-blue-500 font-semibold hover:underline">Đọc thêm...</a>
+                    </p>
                 </div>
             </section>
 
+            <!-- Crisis Overview Section -->
             <section id="crisis-overview" class="mb-12">
-                <h2 class="text-3xl font-bold text-[#003f5c] text-center mb-8">1. The Current Crisis: Alarming Signs</h2>
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 items-stretch">
+                <h2 class="text-3xl font-bold text-[#003f5c] text-center mb-8">1. Khủng hoảng hiện tại: Những dấu hiệu đáng báo động</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Issue Nhân sự -->
                     <div class="bg-white rounded-lg shadow-md p-6 flex flex-col">
-                        <h3 class="text-xl font-semibold text-[#4d648d] mb-4">Experienced Personnel Resigning</h3>
-                        <p class="text-gray-600 mb-4 flex-grow">The structural change has triggered a wave of resignations, especially among key personnel, weakening our core competitive capabilities. A prime example is the departure of seasoned staff like Son, while Mr. Viet has taken on a different role.</p>
-                        <div class="flex items-center justify-center space-x-4 mt-auto">
-                            <span class="text-6xl text-[#d45087]">📉</span>
-                            <div class="text-left">
-                                <p class="text-2xl font-bold text-[#d45087]">DECLINE</p>
-                                <p class="text-sm text-gray-600 mt-2">Core team</p>
+                        <h3 class="text-xl font-semibold text-[#4d648d] mb-4">ISSUE Nhân sự</h3>
+                        <div class="flex-grow">
+                            <p class="text-gray-600 mb-4">Sự thay đổi cơ cấu đã gây ra một làn sóng nghỉ việc, đặc biệt là ở đội ngũ nhân sự chủ chốt:</p>
+                            <ul class="list-disc list-inside text-gray-600 space-y-1">
+                                <li>Key Sơn nghỉ, anh Việt chuyển vai trò khác</li>
+                                <li>Key member tại DU đã phản hồi tôi các bạn xin nghỉ vì không hợp với tổ chức hiện tại</li>
+                            </ul>
+                        </div>
+                        <div class="flex items-center justify-center space-x-4 mt-6">
+                            <span class="text-6xl">📉</span>
+                            <div>
+                                <p class="text-2xl font-bold text-[#d45087]">VẤN ĐỀ</p>
+                                <p class="text-sm text-gray-600">Đội ngũ cốt lõi</p>
                             </div>
                         </div>
                     </div>
+
+                    <!-- Mất khách hàng -->
                     <div class="bg-white rounded-lg shadow-md p-6 flex flex-col">
-                        <h3 class="text-xl font-semibold text-[#4d648d] mb-4">Loss of Clients & Declining Trust</h3>
-                        <p class="text-gray-600 mb-4 flex-grow">The loss of core personnel has led to a decline in clients and their trust. Relationships built over many years are being severely shaken due to recurring major issues related to quality and process.</p>
-                        <div class="flex items-center justify-center space-x-4 mt-auto">
-                            <span class="text-6xl text-[#ff6361]">💔</span>
-                            <div class="text-left">
-                                <p class="text-2xl font-bold text-[#ff6361]">FRACTURED</p>
-                                <p class="text-sm text-gray-600 mt-2">Client relationships</p>
+                        <h3 class="text-xl font-semibold text-[#4d648d] mb-4">Mất khách hàng & Niềm tin suy giảm</h3>
+                        <div class="flex-grow">
+                            <p class="text-gray-600 mb-4">Việc mất nhân sự nòng cốt kéo theo việc mất khách hàng và niềm tin:</p>
+                            <ul class="list-disc list-inside text-gray-600 space-y-1">
+                                <li>Dự án gặp sự cố kéo dài 2 tháng, không được giải quyết hiệu quả</li>
+                                <li>Các issue lặp đi lặp lại, quản lý chất lượng không cải thiện</li>
+                                <li>Chất lượng sản phẩm không ổn định, không tuân thủ quy trình</li>
+                            </ul>
+                        </div>
+                        <div class="flex items-center justify-center space-x-4 mt-6">
+                            <span class="text-6xl">💔</span>
+                            <div>
+                                <p class="text-2xl font-bold text-[#ff6361]">RẠN NỨT</p>
+                                <p class="text-sm text-gray-600">Quan hệ khách hàng</p>
                             </div>
                         </div>
                     </div>
+
+                    <!-- Quản lý và Rủi ro -->
                     <div class="bg-white rounded-lg shadow-md p-6 flex flex-col">
-                        <h3 class="text-xl font-semibold text-[#4d648d] mb-4">Management and Risk</h3>
-                        <p class="text-gray-600 mb-4 flex-grow">The current team's ability to manage and detect risks is poor due to a lack of deep market understanding. This leads to an inability to effectively anticipate and handle potential issues.</p>
-                        <div class="flex items-center justify-center space-x-4 mt-auto">
-                            <span class="text-6xl text-[#8e44ad]">⚠️</span>
-                            <div class="text-left">
-                                <p class="text-2xl font-bold text-[#8e44ad]">WARNING</p>
-                                <p class="text-sm text-gray-600 mt-2">Potential risks</p>
+                        <h3 class="text-xl font-semibold text-[#4d648d] mb-4">Quản lý và Rủi ro</h3>
+                        <div class="flex-grow">
+                            <p class="text-gray-600 mb-4">Khả năng quản lý và phát hiện rủi ro kém do thiếu hiểu biết về thị trường:</p>
+                            <ul class="list-disc list-inside text-gray-600 space-y-1">
+                                <li>Không có định hướng xây dựng năng lực sản xuất để thúc đẩy sale</li>
+                                <li>Có quy trình nhưng không phát hiện và phòng ngừa được issue</li>
+                                <li>Không hiểu cách làm việc và quy trình tại JP</li>
+                            </ul>
+                        </div>
+                        <div class="flex items-center justify-center space-x-4 mt-6">
+                            <span class="text-6xl">⚠️</span>
+                            <div>
+                                <p class="text-2xl font-bold text-[#8e44ad]">CẢNH BÁO</p>
+                                <p class="text-sm text-gray-600">Rủi ro tiềm tàng</p>
                             </div>
                         </div>
                     </div>
-                     <div class="bg-white rounded-lg shadow-md p-6 flex flex-col">
-                        <h3 class="text-xl font-semibold text-[#4d648d] mb-4">Management Difficulties: Market Understanding</h3>
-                        <p class="text-gray-600 mb-4 flex-grow">In reality, while Mai is the CEO, management of the team in Japan is handled by the team in Vietnam. This cross-border management style creates significant difficulties and a lack of market understanding, leading to decisions that are not aligned with practical reality.</p>
-                        <div class="flex items-center justify-center space-x-4 mt-auto">
-                            <span class="text-6xl text-[#ffc163]">🗺️</span>
-                            <div class="text-left">
-                                <p class="text-2xl font-bold text-[#ffc163]">LOST</p>
-                                <p class="text-sm text-gray-600 mt-2">Market direction</p>
+
+                    <!-- Khó khăn Quản lý -->
+                    <div class="bg-white rounded-lg shadow-md p-6 flex flex-col">
+                        <h3 class="text-xl font-semibold text-[#4d648d] mb-4">Khó khăn trong Quản lý</h3>
+                        <div class="flex-grow">
+                            <ul class="list-disc list-inside text-gray-600 space-y-2">
+                                <li>Toàn bộ đội ngũ Manager mới đều ở Việt Nam, gây vấn đề vận hành</li>
+                                <li>Năm 2023-2024, OBJP không nhận được đầu tư từ Holding hay Alten</li>
+                                <li>Các chương trình hỗ trợ chủ yếu dành cho VGB và SWB</li>
+                                <li>Thông tin với Alten JP không được tiếp cận đầy đủ</li>
+                            </ul>
+                        </div>
+                        <div class="flex items-center justify-center space-x-4 mt-6">
+                            <span class="text-6xl">🗺️</span>
+                            <div>
+                                <p class="text-2xl font-bold text-[#ffc163]">LẠC LỐI</p>
+                                <p class="text-sm text-gray-600">Định hướng thị trường</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
+            <!-- Strategy Flaws Section -->
             <section id="strategy-flaws" class="mb-12">
-                 <h2 class="text-3xl font-bold text-[#003f5c] text-center mb-8">2. Strategic Missteps: Confusing Business Models</h2>
+                <h2 class="text-3xl font-bold text-[#003f5c] text-center mb-8">2. Sai lầm chiến lược: Nhầm lẫn mô hình kinh doanh</h2>
                 <div class="bg-white rounded-lg shadow-md p-6">
-                    <h3 class="text-xl font-semibold text-[#4d648d] mb-4 text-center">Comparing the "Hakken" and "Outsource" Models</h3>
-                    <p class="text-gray-600 mb-8 text-center">Applying a uniform "focus on margin" strategy to both models is a serious mistake. Each model requires a different approach and investment.</p>
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
-                        <div class="hakken-section bg-[#003f5c] text-white">
-                            <h4 class="text-2xl font-bold">Hakken (Personnel Provision)</h4>
-                            <ul class="list-none space-y-2">
-                                <li>👉 <strong>Margin Requirement:</strong> Extremely high</li>
-                                <li>👉 <strong>Investment in Capability:</strong> Low</li>
-                                <li>👉 <strong>Client Relationships:</strong> Important, but not decisive</li>
+                    <h3 class="text-xl font-semibold text-[#4d648d] mb-4 text-center">So sánh mô hình "Hakken" và "Outsource"</h3>
+                    <p class="text-gray-600 mb-8 text-center">Việc áp dụng chiến lược "tập trung vào lợi nhuận" duy nhất cho cả hai mô hình là sai lầm nghiêm trọng.</p>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <!-- Hakken Model -->
+                        <div class="bg-[#003f5c] text-white rounded-lg p-6">
+                            <h4 class="text-2xl font-bold mb-4">Hakken (Cung cấp nhân sự)</h4>
+                            <ul class="space-y-3">
+                                <li><strong>Yêu cầu lợi nhuận:</strong> Rất cao</li>
+                                <li><strong>Đầu tư năng lực:</strong> Thấp</li>
+                                <li><strong>Quan hệ khách hàng:</strong> Quan trọng, nhưng không quyết định</li>
                             </ul>
                         </div>
-                        <div class="outsource-section bg-[#ffa600] text-gray-800">
-                             <h4 class="text-2xl font-bold">Outsource (Project Outsourcing)</h4>
-                            <ul class="list-none space-y-2">
-                                <li>👉 <strong>Margin Requirement:</strong> More flexible</li>
-                                <li>👉 <strong>Investment in Capability:</strong> High in the initial phase, can be adjusted later according to the situation.</li>
-                                <li>👉 <strong>Client Relationships:</strong> Critically important</li>
-                                <li>👉 <strong>Japanese Client Demands:</strong> Quality and process compliance</li>
+
+                        <!-- Outsource Model -->
+                        <div class="bg-[#ffa600] text-gray-800 rounded-lg p-6">
+                            <h4 class="text-2xl font-bold mb-4">Outsource (Gia công dự án)</h4>
+                            <ul class="space-y-3">
+                                <li><strong>Yêu cầu lợi nhuận:</strong> Linh hoạt hơn</li>
+                                <li><strong>Đầu tư năng lực:</strong> Giai đoạn đầu rất cao, sau đó điều chỉnh</li>
+                                <li><strong>Quan hệ khách hàng:</strong> Tối quan trọng</li>
+                                <li><strong>Yêu cầu khách hàng Nhật:</strong> Chất lượng và tuân thủ quy trình</li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section id="inefficiencies" class="mb-12">
-                <h2 class="text-3xl font-bold text-[#003f5c] text-center mb-8">3. Analysis of Internal Inefficiencies</h2>
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <div class="bg-white rounded-lg shadow-md p-6 flex flex-col justify-between">
-                        <div>
-                           <h3 class="text-xl font-semibold text-[#d45087] mb-4">VDX Issue 1: Cost and Performance</h3>
-                            <p class="text-gray-600 mb-4">The VDX 1 department has very little revenue but is constantly recruiting, creating a cost burden that is disproportionate to its performance. This raises a major question: why are we investing in a unit with such small revenue instead of focusing resources on <strong>OBJP</strong>, which accounts for <strong>35-40%</strong> of the entire system's revenue?</p>
-                        </div>
-                        <div class="flex flex-col md:flex-row gap-4 items-center justify-center mt-6">
-                            <div class="flex flex-col items-center p-4 bg-[#ff6361]/20 rounded-lg w-full md:w-1/2">
-                                <h4 class="font-bold text-lg text-[#ff6361]">VDX 1</h4>
-                                <div class="w-full bg-gray-200 h-3 rounded-full mt-2">
-                                    <div class="bg-[#ff6361] h-3 rounded-full" style="width: 15%;"></div>
-                                </div>
-                                <p class="text-[#ff6361] font-semibold text-sm mt-1">Very little revenue</p>
-                            </div>
-                            <div class="flex flex-col items-center p-4 bg-[#28a745]/20 rounded-lg w-full md:w-1/2">
-                                <h4 class="font-bold text-lg text-[#28a745]">OBJP</h4>
-                                <div class="w-full bg-gray-200 h-3 rounded-full mt-2">
-                                    <div class="bg-[#28a745] h-3 rounded-full" style="width: 80%;"></div>
-                                </div>
-                                <p class="text-[#28a745] font-semibold text-sm mt-1">35-40% Revenue</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="bg-white rounded-lg shadow-md p-6 flex flex-col justify-between">
-                        <div>
-                            <h3 class="text-xl font-semibold text-[#d45087] mb-4">Organization Chart</h3>
-                            <p class="text-gray-600 mb-4">The current organizational structure is causing numerous issues with coordination and accountability. Despite a project's incident that occurred two months ago and a root cause identified by OBJP, no action was taken, while the relevant managers showed a perfunctory attitude in resolving the issue.</p>
-                        </div>
-                        <div class="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-4 mt-6">
-                            <div class="text-center p-4 border-2 border-dashed border-blue-300 rounded-lg">
-                                <p class="font-semibold text-blue-600">Project needs support</p>
-                            </div>
-                            <div class="flow-arrow">➜</div>
-                            <div class="text-center p-4 border-2 border-dashed border-red-300 rounded-lg">
-                                <p class="font-semibold text-red-600">No effective response<br>from PMO and from managers</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="bg-white rounded-lg shadow-md p-6 flex flex-col justify-between">
-                        <div>
-                           <h3 class="text-xl font-semibold text-[#d45087] mb-4">Investing in Market Competence</h3>
-                            <p class="text-gray-600 mb-4">The focus of the change must be on recruiting and developing a team with the competence to work in the market. Operational effectiveness in the Japanese market comes from leaders and personnel who truly understand the market.</p>
-                        </div>
-                        <div class="flex flex-col items-center mt-6">
-                            <span class="compass-icon">🧭</span>
-                            <p class="text-lg font-bold text-[#4d648d] text-center mt-2">Market-Oriented Leadership</p>
-                            <p class="text-xs text-gray-500 mt-2 text-center">Focus on competence and strategic direction for market success.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
+            <!-- Solutions Section -->
             <section id="solutions" class="mb-12">
-                <h2 class="text-3xl font-bold text-[#003f5c] text-center mb-8">4. Proposed Solutions: The Way Forward</h2>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <h2 class="text-3xl font-bold text-[#003f5c] text-center mb-8">3. Giải pháp đề xuất: Hướng đi tương lai</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+                    <!-- Tái định hướng Chiến lược -->
                     <div class="bg-white rounded-lg shadow-lg p-6 border-l-4 border-[#28a745]">
-                        <h3 class="text-xl font-semibold text-[#4d648d] mb-3">Strategic Reorientation</h3>
-                        <p class="text-gray-600">There must be a clear, consistent strategy built upon a deep understanding of the Japanese market and its specific business models.</p>
+                        <h3 class="text-xl font-semibold text-[#4d648d] mb-4">Tái định hướng Chiến lược</h3>
+                        <ul class="list-disc list-inside text-gray-600 space-y-2">
+                            <li>Xây dựng chiến lược rõ ràng, nhất quán dựa trên hiểu biết sâu về thị trường Nhật</li>
+                            <li>Đánh giá lại margin để khối sản xuất có không gian phát triển năng lực</li>
+                            <li>Điều chuyển PMO không đủ năng lực vào khối DU để tiết kiệm chi phí</li>
+                        </ul>
                     </div>
-                    <div class="bg-white rounded-lg shadow-lg p-6 border-l-4 border-[#ffa600]">
-                        <h3 class="text-xl font-semibold text-[#4d648d] mb-3">Investing in High-Quality Personnel</h3>
-                        <p class="text-gray-600">Stop the blind cuts. Instead, recruit and train a new team with the qualifications and competence to meet the strict demands of Japanese clients.</p>
-                    </div>
+
+                    <!-- Cải tiến vai trò -->
                     <div class="bg-white rounded-lg shadow-lg p-6 border-l-4 border-[#d45087]">
-                        <h3 class="text-xl font-semibold text-[#4d648d] mb-3">Organizational Restructuring</h3>
-                        <p class="text-gray-600">Implement a clear organizational structure with proper accountability and local market expertise to ensure effective decision-making and risk management.</p>
+                        <h3 class="text-xl font-semibold text-[#4d648d] mb-4">Cải tiến vai trò trách nhiệm</h3>
+                        <ul class="list-disc list-inside text-gray-600 space-y-2">
+                            <li>Cần manager hiểu thị trường với nhiều năm kinh nghiệm tại JP</li>
+                            <li>Đưa ra chiến lược rõ ràng cần focus vào hình thức nào</li>
+                            <li>Manager khối sản xuất cần join vào dự án thực tế để đưa ra action phù hợp</li>
+                        </ul>
                     </div>
+                </div>
+
+                <!-- Phân bổ nguồn lực -->
+                <div class="bg-white rounded-lg shadow-lg p-6 border-l-4 border-[#ff6361]">
+                    <h3 class="text-xl font-semibold text-[#4d648d] mb-4">Phân bổ nguồn lực không hiệu quả</h3>
+                    <p class="text-gray-600">Đánh giá lại VDX, nơi có nhiều hoạt động tuyển dụng nhưng doanh thu thấp, và tập trung đầu tư vào các thị trường tiềm năng hơn để thúc đẩy tăng trưởng.</p>
                 </div>
             </section>
         </main>
 
+        <!-- Footer -->
         <footer class="text-center mt-12 pt-8 border-t border-gray-300">
-            <p class="text-gray-500">This report was automatically generated based on internal data. Last updated: 9/2/2025.</p>
+            <p class="text-gray-500">Báo cáo được tạo tự động dựa trên dữ liệu nội bộ. Cập nhật: 2/9/2025</p>
         </footer>
-
     </div>
-    
+
+    <!-- Modal -->
     <div id="modal" class="fixed inset-0 bg-black bg-opacity-50 hidden z-50 flex items-center justify-center p-4">
         <div class="bg-white p-6 rounded-lg shadow-xl relative max-w-lg mx-auto max-h-[80vh] overflow-y-auto">
-            <button id="closeModalBtn" class="absolute top-4 right-4 text-gray-500 hover:text-gray-800 text-xl font-bold leading-none">
-                &times;
-            </button>
-            <h3 class="text-2xl font-bold mb-4">Premise of Establishment</h3>
+            <button id="closeModalBtn" class="absolute top-4 right-4 text-gray-500 hover:text-gray-800 text-xl font-bold">×</button>
+            <h3 class="text-2xl font-bold mb-4">Tiền đề thành lập</h3>
             <p id="modalContent" class="text-gray-700"></p>
         </div>
     </div>
 
     <script>
-        const fullText = "The OB JP production unit was formed based on practical experience and a deep analysis of the Japanese market. Acknowledging fierce competition from other outsource companies, we determined that building a specialized unit capable of understanding the work culture and meeting the strict requirements of Japanese clients is a key factor for our survival and sustainable development. This is not just a production unit; it is a strategy to affirm our core capabilities and create a lasting competitive advantage.";
+        const fullText = `Dựa trên kinh nghiệm làm việc với Nhật Bản cũng như thực tế của thị trường Nhật và sự cạnh tranh gay gắt với các công ty outsource khác, chúng tôi nhận thấy cần những người có thể hiểu, làm việc trực tiếp và tư vấn cho khách hàng tại Nhật, đó là lý do chúng tôi có SMR.`;
+
         const readMoreLink = document.getElementById('readMoreLink');
         const modal = document.getElementById('modal');
         const closeModalBtn = document.getElementById('closeModalBtn');
